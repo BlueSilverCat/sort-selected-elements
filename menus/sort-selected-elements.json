@@ -1,0 +1,27 @@
+{
+  "context-menu": {
+    "atom-text-editor": [{
+      "label": "Sort sort-selected-elements",
+      "command": "sort-selected-elements:sort"
+    }]
+  },
+  "menu": [{
+    "label": "Packages",
+    "submenu": [{
+      "label": "sort-selected-elements",
+      "submenu": [{
+          "label": "Panel",
+          "command": "sort-selected-elements:panel"
+        },
+        {
+          "label": "Sort",
+          "command": "sort-selected-elements:sort"
+        },
+        {
+          "label": "Settings",
+          "command": "sort-selected-elements:settings"
+        }
+      ]
+    }]
+  }]
+}

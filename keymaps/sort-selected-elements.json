@@ -1,0 +1,10 @@
+{
+  "atom-workspace": {
+    "ctrl-alt-shift-s": "sort-selected-elements:panel",
+    "ctrl-shift-s": "sort-selected-elements:sort"
+  },
+  "sort-selected-elements.root": {
+    "tab": "sort-selected-elements:focusNext",
+    "shift-tab": "sort-selected-elements:focusPrevious"
+  }
+}

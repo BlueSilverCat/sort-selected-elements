@@ -1,0 +1,20 @@
+{
+  "name": "sort-selected-elements",
+  "main": "./lib/sort-selected-elements",
+  "version": "0.0.0",
+  "description": "sort selected elements.",
+  "keywords": ["sort"],
+  "activationCommands": {
+    "atom-workspace": [
+      "sort-selected-elements:panel",
+      "sort-selected-elements:sort",
+      "sort-selected-elements:settings"
+    ]
+  },
+  "repository": "https://github.com/atom/sort-selected-elements",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.18.0 <2.0.0"
+  },
+  "dependencies": {}
+}
