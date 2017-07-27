@@ -2,7 +2,7 @@
   "name": "sort-selected-elements",
   "main": "./lib/sort-selected-elements",
   "version": "0.0.0",
-  "description": "sort selected elements.",
+  "description": "Sort selected text in the Atom.",
   "keywords": ["sort"],
   "activationCommands": {
     "atom-workspace": [
@@ -11,7 +11,7 @@
       "sort-selected-elements:settings"
     ]
   },
-  "repository": "https://github.com/atom/sort-selected-elements",
+  "repository": "https://github.com/BlueSilverCat/sort-selected-elements.git",
   "license": "MIT",
   "engines": {
     "atom": ">=1.18.0 <2.0.0"

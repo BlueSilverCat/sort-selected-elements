@@ -1,10 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [{
-      "label": "Sort sort-selected-elements",
-      "command": "sort-selected-elements:sort"
-    }]
-  },
   "menu": [{
     "label": "Packages",
     "submenu": [{

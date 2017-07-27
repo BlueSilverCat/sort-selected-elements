@@ -3,16 +3,17 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/styles/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
-@left: 10px;
+@margin-left: 5px;
+@margin-right: 5px;
 @input-search: 150px;
-@delimiter: 40px;
+@separator: 50px;
 
-.sort-selected-elements {
+div.sort-selected-elements.root {
   input.input-search {
     width: @input-search;
 
-    &.delimiter {
-      width: @delimiter;
+    &.separator {
+      width: @separator;
     }
   }
 
@@ -20,6 +21,26 @@
     display: inline-flex;
     align-items: center;
     align-content: left;
-    margin-left: @left;
+    margin-left: @margin-left;
+    margin-right: @margin-right;
+  }
+
+  div {
+    display: inline-flex;
+    align-items: center;
+    align-content: left;
+    margin: 0 0 0 0;
+
+    &.default {
+      border-left: thin solid;
+    }
+
+    &.inline {
+      border-left: thin solid;
+    }
+
+    &.filter {
+      border-left: thin solid;
+    }
   }
 }
